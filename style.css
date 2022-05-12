@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(57, 110, 110);
+}
+.nav{
+    background-color: rgba(79, 121, 121, 0.945);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    margin: 0;
+    font-size: 3em;
+}
+button{
+    width: 250px;
+    height: 50px;
+    font-size: 40px;
+}
+h2{
+    font-size: 5em;
+    letter-spacing: 50px;
+    margin: 10px 0 5px 40px;
+    text-align: center;
+}
+main{
+    background-color: rgb(57, 110, 110);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+input{
+    margin-right: 15px;
+    border-radius: 20px;
+    width: 75px;
+    height: 100px;  
+}
+input[type="text"]{
+    font-size: 85px;
+    text-align: center;
+}
