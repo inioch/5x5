@@ -1,7 +1,7 @@
 let zbiorwyrazow = ["DOMEK", "TARTA", "WIARA", "WARTA", "ZAMEK", "KARTA", "BRAMA", "IGLOO", "KOMIN", "TARKA"];
 let wiersz = zbiorwyrazow[Math.floor(Math.random() * 10)];
 let linijka = 1;
-$("#haslo").text(wiersz);
+$("#haslo").text(wiersz[0]);
 $("[id=first]").val(wiersz[0]);
 let drugi = false;
 let trzeci = false;
